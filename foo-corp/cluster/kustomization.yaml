@@ -1,0 +1,3 @@
+resources:
+- connect-gateway/admin-permission.yaml
+- connect-gateway/impersonate.yaml
