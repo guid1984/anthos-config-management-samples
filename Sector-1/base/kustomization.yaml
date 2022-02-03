@@ -12,8 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 helmCharts:
-- name: cert-manager
-  repo: https://charts.jetstack.io
-  version: v1.7.0
-  releaseName: my-cert-manager
-  namespace: cert-manager
+ - name: cert-manager
+   repo: https://charts.jetstack.io
+   version: v1.7.0
+   releaseName: my-cert-manager
+   namespace: cert-manager
+ - name: fluent/fluent-bit
+   repo: https://charts.jetstack.io
+   version: v0.19.18  
+   releaseName: my-fluent-bit
+   namespace: fluent-bit
