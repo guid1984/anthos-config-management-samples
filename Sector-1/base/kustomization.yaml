@@ -22,3 +22,8 @@ helmCharts:
 #    version: v31.0.0 
 #    releaseName: my-kube-prometheus-stack
 #    namespace: platform-observability
+ - name: prometheus
+   repo: https://prometheus-community.github.io/helm-charts
+   version: 14.3.0
+   releaseName: my-prometheus
+   namespace: monitoring
