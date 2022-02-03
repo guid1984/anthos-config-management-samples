@@ -17,8 +17,8 @@ helmCharts:
    version: v1.7.0
    releaseName: my-cert-manager
    namespace: cert-manager
- - name: fluent/fluent-bit
-   repo: https://fluent.github.io/helm-charts
-   version: v0.19.17  
-   releaseName: my-fluent-bit
-   namespace: fluent-bit
+ - name: prometheus-community/kube-prometheus-stack
+   repo: https://prometheus-community.github.io/helm-charts
+   version: v31.0.0 
+   releaseName: my-kube-prometheus-stack
+   namespace: platform-observability
