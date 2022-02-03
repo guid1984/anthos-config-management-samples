@@ -19,6 +19,6 @@ helmCharts:
    namespace: cert-manager
  - name: fluent/fluent-bit
    repo: https://fluent.github.io/helm-charts
-   version: v0.19.18  
+   version: v0.19.17  
    releaseName: my-fluent-bit
    namespace: fluent-bit
