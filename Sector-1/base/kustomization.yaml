@@ -11,17 +11,15 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+resources:
+- namespace.yaml
+
 helmCharts:
  - name: cert-manager
    repo: https://charts.jetstack.io
    version: v1.7.0
    releaseName: my-cert-manager
    namespace: cert-manager
-#  - name: kube-prometheus-stack
-#    repo: https://prometheus-community.github.io/helm-charts
-#    version: v31.0.0 
-#    releaseName: my-kube-prometheus-stack
-#    namespace: platform-observability
  - name: prometheus
    repo: https://prometheus-community.github.io/helm-charts
    version: 14.3.0
