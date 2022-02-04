@@ -1,4 +1,5 @@
 # ./kustomization.yaml
 resources:
+- helm-charts
 - tenant-a
 - tenant-b
