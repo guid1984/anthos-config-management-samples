@@ -1,8 +1,0 @@
-# ./kustomization.yaml
-resources:
-# - "helm-charts"
-- "xcs"
-- "xPay"
-- "helix"
-
-

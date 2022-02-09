@@ -1,5 +1,0 @@
-# .base/namespace.yaml base namespace config
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: default

@@ -1,5 +1,0 @@
-# .base/kustomization.yaml conatins all base resources that
-# will be patched via overlays
-resources:
-- namespace.yaml
-- rolebinding.yaml
