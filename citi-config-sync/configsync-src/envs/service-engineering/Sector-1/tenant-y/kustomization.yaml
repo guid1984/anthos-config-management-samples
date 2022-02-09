@@ -1,7 +1,7 @@
-namespace: tenant-b
+namespace: tenant-y
 
 resources:
-- ../../../base
+- ../../../../base
 
 patches:
 - target:
@@ -10,4 +10,4 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: tenant-b
+      value: tenant-y

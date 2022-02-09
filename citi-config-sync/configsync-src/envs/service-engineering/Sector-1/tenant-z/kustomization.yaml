@@ -1,10 +1,10 @@
 # .tenant-c/kustomization.yaml
 # example kustomization.yaml overlay per tenant specific configuration
 # this one patch it with .base/kustomization.yaml to create tenant namespaces
-namespace: tenant-c
+namespace: tenant-z
 
 resources:
-- ../../../base
+- ../../../../base
 
 patches:
 - target:
@@ -13,4 +13,4 @@ patches:
   patch: |-
     - op: replace
       path: /metadata/name
-      value: tenant-c
+      value: tenant-z
