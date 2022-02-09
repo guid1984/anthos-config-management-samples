@@ -4,7 +4,7 @@
 namespace: tenant-z
 
 resources:
-- ../../../base
+- ../../../../base
 
 patches:
 - target:

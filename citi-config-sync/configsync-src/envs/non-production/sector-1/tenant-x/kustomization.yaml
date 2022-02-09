@@ -1,7 +1,7 @@
 namespace: tenant-x
 
 resources:
-- ../../../base
+- ../../../../base
 
 patches:
 - target:
@@ -10,7 +10,7 @@ patches:
   patch: |-
     - op: replace
       path: /subjects/0/name
-      value: tenant-a-admin@mydomain.com
+      value: tenant-x-admin@mydomain.com
 - target:
     kind: Namespace
     name: default
