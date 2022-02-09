@@ -1,7 +1,6 @@
 resources:
 - "helm-charts"
-- "sector-1/tenant-a"
-- "sector-1/tenant-b"
-- "sector-1/tenant-c"
-
+- "sector-1/tenant-x"
+- "sector-1/tenant-y"
+- "sector-1/tenant-z"
 
