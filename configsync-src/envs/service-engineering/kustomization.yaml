@@ -1,5 +1,5 @@
 resources:
-- "helm-charts"
+# - "helm-charts"
 - "sector-optimus-prime/tenant-x"
 - "sector-optimus-prime/tenant-y"
 - "sector-optimus-prime/tenant-z"
