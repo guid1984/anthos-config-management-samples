@@ -1,16 +1,17 @@
-# namespace: tenant-alpha
+namespace: tenant-alpha
 
 resources:
 - ../../../../base
 
-#tenant specific helm chart
-helmCharts:
- - name: prometheus
-   repo: https://prometheus-community.github.io/helm-charts
-   version: 14.3.0
-   releaseName: my-prometheus
-   namespace: tenant-aplha-monitoring
+# usage tenant specific helm chart
+# helmCharts:
+#  - name: prometheus
+#    repo: https://prometheus-community.github.io/helm-charts
+#    version: 14.3.0
+#    releaseName: my-prometheus
+#    namespace: tenant-aplha-monitoring
 
+# usage tenant specific k8s objects
 patches:
 - target:
     kind: RoleBinding

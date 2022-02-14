@@ -1,3 +1,4 @@
+# usage example for helm charts for an environment applicable to all tenants
 helmCharts:
  - name: cert-manager
    repo: https://charts.jetstack.io
