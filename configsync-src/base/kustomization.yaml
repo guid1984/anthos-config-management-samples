@@ -25,8 +25,8 @@ helmCharts:
  - name: prometheus
    repo: https://prometheus-community.github.io/helm-charts
    version: 14.3.0
-   releaseName: my-prometheus
-   namespace: monitoring
+   releaseName: my-prometheus-new
+   namespace: monitoring-new
 resources:
 - namespace.yaml
 - rolebinding.yaml
