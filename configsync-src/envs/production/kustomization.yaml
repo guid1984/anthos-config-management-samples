@@ -1,5 +1,5 @@
 resources:
-# - "helm-charts"
+- "helm-charts"
 - "sector-2/tenant-x"
 - "sector-2/tenant-y"
 - "sector-2/tenant-z"
