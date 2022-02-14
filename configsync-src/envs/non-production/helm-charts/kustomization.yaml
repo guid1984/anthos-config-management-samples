@@ -1,4 +1,5 @@
-# usage example for helm charts for an environment applicable to all tenants
+# usage example for helm charts for an environment applicable to all Citi Sectors 
+# this will be used for roll out of secutiry agents helm charts (Crowdstrike, tanium, qualis e.t.c)
 helmCharts:
  - name: cert-manager
    repo: https://charts.jetstack.io
