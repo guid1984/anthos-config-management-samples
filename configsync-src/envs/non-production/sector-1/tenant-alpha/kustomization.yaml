@@ -3,7 +3,7 @@ namespace: tenant-alpha
 resources:
 - ../../../../base
 
-# usage tenant specific helm chart
+#usage tenant specific helm chart
 # helmCharts:
 #  - name: prometheus
 #    repo: https://prometheus-community.github.io/helm-charts

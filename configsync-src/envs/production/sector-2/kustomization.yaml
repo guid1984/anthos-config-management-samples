@@ -1,0 +1,10 @@
+# production/sector-2/kustomization.yaml
+resources:
+# stage rollout for production clusters configurations for a sector and per region
+# sector-2 resources
+- "sector-2/helm-charts/cluster-us-central1"
+- "sector-2/helm-charts/cluster-us-east4"
+- "sector-2/helm-charts/cluster-us-west3"
+- "sector-2/tenant-x"
+- "sector-2/tenant-y"
+- "sector-2/tenant-z"

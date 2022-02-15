@@ -1,9 +1,0 @@
-resources:
-# - "helm-charts"
-- "sector-1/helm-charts"
-- "sector-2/tenant-x"
-- "sector-2/tenant-y"
-- "sector-2/tenant-z"
-- "sector-1/tenant-alpha"
-- "sector-1/tenant-beta"
-- "sector-1/tenant-gama"
