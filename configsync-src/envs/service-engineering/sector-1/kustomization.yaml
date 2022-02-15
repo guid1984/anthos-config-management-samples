@@ -1,7 +1,6 @@
 #/non-production/sector-1/kustomization.yaml
 resources:
-# - "helm-charts"  # renders enviornment specific helm-charts
-- "sector-1/helm-charts" # renders sector specific helm-charts
-- "sector-1/tenant-alpha" # renders tenant specific yaml configs
-- "sector-1/tenant-beta"
-- "sector-1/tenant-gama"
+- "helm-charts" # renders sector specific helm-charts
+- "tenant-alpha" # renders tenant specific yaml configs
+- "tenant-beta"
+- "tenant-gama"

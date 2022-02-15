@@ -1,7 +1,6 @@
 #/non-production/sector-2/kustomization.yaml
 resources:
-- "helm-charts"  # renders enviornment specific helm-charts
-- "sector-2/helm-charts" # renders sector specific helm-charts
-- "sector-2/tenant-x"  # sync tenant specific yaml configs or helm charts
-- "sector-2/tenant-y"
-- "sector-2/tenant-z"
+- "helm-charts" # renders sector specific helm-charts
+- "tenant-x"  # sync tenant specific yaml configs or helm charts
+- "tenant-y"
+- "tenant-z"
