@@ -1,7 +1,7 @@
 #/non-production/sector-1/kustomization.yaml
 # specify resources to be synced or rendered
 resources:
-- "helm-charts" # renders sector specific helm-charts
+#- "helm-charts" # renders sector specific helm-charts
 - "tenant-alpha" # renders tenant specific yaml configs
-- "tenant-beta"
-- "tenant-gama"
+#- "tenant-beta"
+#- "tenant-gama"
